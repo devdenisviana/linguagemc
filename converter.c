@@ -3,7 +3,7 @@
 #include <locale.h>
 
 //função principal do programa
-void main(){
+int main(void){
 	
 	int Dias;
 	float Anos;

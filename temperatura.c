@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-	void main ()
+	int main (void)
 	{
 /*
 para converter de Fahrenheit para Celsius usa-se a formula:

@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int main(void) {
+int main(void) 
+{
 	setlocale(LC_ALL, "Portuguese");
 	
 	float nota1, nota2, media;
@@ -14,17 +15,9 @@ int main(void) {
 	scanf("%f", &nota2 );
 	
 	media = (nota1+nota2)/2;
+	
 	printf("Media: %.2f\n",media);
-	
-	if (media>=6)
-	{
-		printf("\nAluno Aprovado\n");
-	}
-	
-	else
-	{
-		printf("\nAluno Reprovado\n");
-	}
+		
 	system("pause;");
 	
 }

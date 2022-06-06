@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-void main() {
+int main(void) {
 	setlocale(LC_ALL, "Portuguese");
 	
 	float nota1, nota2, media;
