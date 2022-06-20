@@ -7,20 +7,20 @@ int main(void) {
 	
 	int idade;
 	
-	//solicita a idade ao usuário e armazena a resposta na memoria.
+	//solicita a idade ao usuï¿½rio e armazena a resposta na memoria.
 	printf("Digite sua idade: \n");
 	scanf("%d,", &idade);
 	
-	//verifica se o usuário é maior ou menor de idade e exibe uma mensagem em tela classificando-o
+	//verifica se o usuï¿½rio ï¿½ maior ou menor de idade e exibe uma mensagem em tela classificando-o
 	if (idade<18)
 	{
-		printf("\n Você é menor de idade \n");
+		printf("\n Vocï¿½ ï¿½ menor de idade \n");
 	}
 	if (idade>=18)
 	{
-		printf("\n Você é maior de idade \n");
+		printf("\n Vocï¿½ ï¿½ maior de idade \n");
 	}
 	
-	system("pause;");
+	system("pause");
 	
 }
